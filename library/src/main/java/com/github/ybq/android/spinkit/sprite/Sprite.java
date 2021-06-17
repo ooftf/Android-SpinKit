@@ -203,7 +203,8 @@ public abstract class Sprite extends Drawable implements
         }
         if (animator != null) {
             animator.addUpdateListener(this);
-            animator.setStartDelay(animationDelay);
+            animator.setCurrentPlayTime(animator.getDuration()-animationDelay);
+            //animator.setStartDelay(animationDelay);
         }
         return animator;
     }

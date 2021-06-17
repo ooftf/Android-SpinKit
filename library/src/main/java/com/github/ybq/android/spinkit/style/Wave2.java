@@ -23,9 +23,9 @@ public class Wave2 extends SpriteContainer {
             if(i == 0||i == 4){
                 delay = 0;
             }else if(i == 1||i == 3){
-                delay = 250;
+                delay = 200;
             }else{
-                delay = 500;
+                delay = 400;
             }
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
                 waveItems[i].setAnimationDelay(delay);
@@ -61,7 +61,7 @@ public class Wave2 extends SpriteContainer {
         public ValueAnimator onCreateAnimation() {
             float fractions[] = new float[]{0f, 0.5f, 1f};
             return new SpriteAnimatorBuilder(this).scaleY(fractions, 0.4f, 1f, 0.4f).
-                    duration(1000).
+                    duration(800).
                     easeInOut(fractions)
                     .build();
         }
