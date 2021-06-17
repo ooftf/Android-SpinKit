@@ -1,14 +1,11 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
+apply plugin: 'ooftf-maven'
 
 android {
-
-    compileSdkVersion 28
-    buildToolsVersion '28.0.3'
-
+    compileSdkVersion 30
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 28
+        targetSdkVersion 30
     }
 
     lintOptions {
@@ -18,11 +15,6 @@ android {
 
 
 publish {
-    userOrg = 'ybq'
-    groupId = 'com.github.ybq'
-    artifactId = 'Android-SpinKit'
-    publishVersion = '1.4.0'
-    desc = 'Android loading animations'
-    website = 'https://github.com/ybq/Android-SpinKit'
-    licences = ['MIT']
+    artifactId = 'loading-view'
+    version = '0.0.1'
 }

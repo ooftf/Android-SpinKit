@@ -78,7 +78,7 @@ public class StyleFragment extends Fragment implements Colors {
                     DetailActivity.start(v.getContext(), finalPosition);
                 }
             });
-            position = position % 15;
+            position = position % Style.values().length;
             Style style = Style.values()[position];
             Sprite drawable = SpriteFactory.create(style);
             spinKitView.setIndeterminateDrawable(drawable);

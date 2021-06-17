@@ -56,7 +56,9 @@
     <style name="SpinKitView.Wave">
         <item name="SpinKit_Style">Wave</item>
     </style>
-
+    <style name="SpinKitView.Wave2">
+        <item name="SpinKit_Style">Wave2</item>
+    </style>
     <style name="SpinKitView.MultiplePulse">
         <item name="SpinKit_Style">MultiplePulse</item>
     </style>
@@ -123,7 +125,9 @@
     <style name="SpinKitView.Large.Wave">
         <item name="SpinKit_Style">Wave</item>
     </style>
-
+    <style name="SpinKitView.Large.Wave2">
+        <item name="SpinKit_Style">Wave2</item>
+    </style>
     <style name="SpinKitView.Large.MultiplePulse">
         <item name="SpinKit_Style">MultiplePulse</item>
     </style>
@@ -190,7 +194,9 @@
     <style name="SpinKitView.Small.Wave">
         <item name="SpinKit_Style">Wave</item>
     </style>
-
+    <style name="SpinKitView.Small.Wave2">
+        <item name="SpinKit_Style">Wave2</item>
+    </style>
     <style name="SpinKitView.Small.MultiplePulse">
         <item name="SpinKit_Style">MultiplePulse</item>
     </style>
